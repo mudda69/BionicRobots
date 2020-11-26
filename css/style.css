@@ -1,0 +1,496 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+h3 {
+  margin-bottom: 7px;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #ff5733;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  border: 7px solid #24252a;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #06dee1, #79ff6c);
+  border-radius: 50px;
+}
+
+/* GO TO TOP BUTTON */
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #ff5733;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #edf0f1;
+  font-size: 22px;
+}
+.fas {
+  background-color: #ff5733;
+}
+
+/* NAVIGATION + HEADER */
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #ff5733;
+}
+
+.button1 {
+  padding: 9px 25px;
+  background-color: rgba(255, 87, 51, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+  background-color: rgba(255, 87, 51, 0.8);
+}
+
+/* TITLE + TEXT */
+
+.title_div {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.undertitle {
+  font-size: 36px;
+  font-weight: 100;
+  color: #ff5733;
+  text-align: left;
+  margin-left: 30%;
+}
+/* EINFÜHRUNG */
+.einführung {
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
+.einführung img {
+  float: left;
+  width: 25%;
+  border-radius: 7%;
+  margin-right: 20px;
+}
+
+.einführung h3 {
+  padding-bottom: 7px;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #ff5733;
+}
+/* SECTION 1 */
+/* ISTORIJA */
+.istorija {
+  overflow: auto;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img_container1 {
+  float: left;
+  width: 25%;
+  margin-right: 20px;
+}
+
+.img_container_1 img,
+.img_container_2 img,
+.img_container_3 img {
+  border-radius: 10%;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.istorija_h3 {
+  margin-top: 25px;
+  color: #ff5733;
+  font-size: 26px;
+  margin-bottom: 7px;
+}
+
+.p_style2 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Wirkprinzip*/
+
+.prinziprada {
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
+.vid_container1 video {
+  float: left;
+  width: 40%;
+  border-radius: 7%;
+  margin-right: 20px;
+  border: none;
+}
+
+.prinziprada h3 {
+  margin-left: 15%;
+}
+
+/* SECTION2   */
+/*SMART BIRD FESTO ... */
+.festo_div {
+}
+
+.festo_smartbird {
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 10%;
+  margin-right: 10%;
+}
+/* VIDEO 1 */
+
+.smartbird_animation_div {
+  margin-top: 5%;
+}
+
+.smartbird_animation {
+  float: left;
+  width: 60%;
+  border-radius: 7px;
+  margin-right: 20px;
+  border: none;
+  margin-bottom: 5%;
+}
+
+.smartbird_h2 {
+  padding-top: 5%;
+  color: #ff5733;
+  font-size: 28px;
+}
+
+/* VIDEO2*/
+.smartbird_flight_div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.smartbird_flight {
+  float: left;
+  width: 60%;
+  border-radius: 7px;
+  margin-right: 20px;
+  border: none;
+}
+
+.smartbirdflight_h2 {
+  float: right;
+  padding-top: 20%;
+  color: #ff5733;
+  font-size: 28px;
+  margin-top: 15%;
+}
+
+.smartbird_karakteristike {
+  float: left;
+}
+
+/* TABLE */
+
+.table {
+  float: left;
+  margin-top: 10px;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-3vhd {
+  background-color: #24252a;
+  border-color: #ff5733;
+  color: #ffffff;
+  text-align: left;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+  }
+
+  .tg col {
+    width: auto !important;
+  }
+
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* BIONIC OPTER */
+.bionic_opter {
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
+.bionic_opter img {
+  float: left;
+  width: 25%;
+  border-radius: 7%;
+  margin-right: 20px;
+}
+
+/* FLYING FOX */
+
+.flying_fox {
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
+.flying_fox img {
+  float: left;
+  width: 25%;
+  border-radius: 7%;
+  margin-right: 20px;
+}
+
+/* SECTION 3 */
+.slike_h2 {
+  font-size: 32px;
+  color: #ff5733;
+  align-self: center;
+  text-align: center;
+}
+
+/* GALLERY*/
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.4s ease-in;
+}
+.column img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*  VIDEO  GALLERY*/
+
+.row-vid {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-vid {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-vid video {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #3c3d42;
+  transition: all 0.2s ease-in;
+}
+.column-vid video:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-vid {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-vid {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* FOOOTER */
+
+.footer_footer {
+  margin-top: 20%;
+}
+
+.footer {
+  background-color: #3c3d42;
+  color: white;
+}
+.footer_div2 {
+  float: right;
+  width: auto;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.footer_div {
+  float: none;
+}
+
+.footer_ul {
+  list-style: none;
+  margin-left: 10%;
+}
+
+.footer_p {
+  padding-top: 5%;
+  margin-left: 10%;
+  color: #ff5733;
+}
+.autor {
+  color: #ff5733;
+  font-size: 26px;
+}
